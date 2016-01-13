@@ -35,11 +35,12 @@
             android:text="@string/enter_name_button_text"
             android:onClick="onSendUsersName"/>
 
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/calling_activity_info_text_view"
-            android:text="@string/calling_activity_message"/>
+            android:id="@+id/calling_activity_info_text_view" />
+            <!--android:text="@string/calling_activity_message"-->
+
 
     </LinearLayout>
 
